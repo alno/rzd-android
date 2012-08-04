@@ -1,0 +1,5 @@
+target
+bin
+gen
+.apt_generated
+.settings
