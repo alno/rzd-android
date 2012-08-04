@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello rzd!</string>
+    <string name="source">Source:</string>
+    <string name="destination">Destination:</string>
     <string name="app_name">rzd</string>
+    <string name="search_tickets">Search for tickets!</string>
+    <string name="date">Date:</string>
+    <string name="results">Search results:</string>
+    <string name="loading_results">Loading results, please wait&#8230;</string>
+    <string name="ticket_amount">last</string>
+    <string name="of_rubles">rub.</string>
+    <string name="nothing_found">Nothing found, sorry&#8230;</string>
+    <string name="bad_request">Bad request, sorry&#8230;</string>
+    <string name="app_error">Application error, sorry&#8230;</string>
 </resources>

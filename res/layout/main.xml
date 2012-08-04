@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sourceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<AutoCompleteTextView
+    android:id="@+id/sourceField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10" >
+
+    <requestFocus />
+</AutoCompleteTextView>
+
+<TextView
+    android:id="@+id/destinationLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/destination"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<AutoCompleteTextView
+    android:id="@+id/destinationField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+<TextView
+    android:id="@+id/dateLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/date"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<DatePicker
+    android:id="@+id/datePicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<Button
+    android:id="@+id/searchTicketsButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/bt_spacing"
+    android:text="@string/search_tickets" />
+
 </LinearLayout>

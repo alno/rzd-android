@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="source">Откуда:</string>
+    <string name="destination">Куда:</string>
+    <string name="app_name">rzd</string>
+    <string name="search_tickets">Найти билеты!</string>
+    <string name="date">Дата:</string>
+    <string name="results">Результаты поиска:</string>
+    <string name="loading_results">Загрузка результатов, пожалуйста подождите&#8230;</string>
+    <string name="ticket_amount">осталось</string>
+    <string name="of_rubles">руб.</string>
+    <string name="nothing_found">Ничего не найдено&#8230;</string>
+    <string name="bad_request">Некорректный запрос&#8230;</string>
+    <string name="app_error">Ошибка в приложении&#8230;</string>
+</resources>
